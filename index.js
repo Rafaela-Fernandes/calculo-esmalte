@@ -4,7 +4,7 @@ $(document).ready(function () {
     $('#bt-01, #bt-02').change(function () {
         let bt_01 = $('#bt-01').val();
         let bt_02 = $('#bt-02').val();
-        var totalBitola = 1 / ((parseInt(bt_01) * parseInt(bt_02)) / 10000);
+        var totalBitola = 1 / ((parseInt(bt_01) * parseInt(bt_02)) / 1000);
 
 
         if (bt_01 && bt_02 == 10) {
