@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <title>Calculo</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="box-titulo mt-4">
+            <img src="img/cropped-logo-eliane-01.png" alt="" width="120">
+            <h1 class="mt-5"> <img src="https://img.icons8.com/color/30/000000/calculator.png" /> Cálculo Esmalte</h1>
+        </div>
+        <hr>
+
+
+        <div class="alert alert-primary my-4" role="alert">
+            <strong>Total:</strong> <span class="total-geral"></span>
+        </div>
+
+
+
+        <form id="form">
+            <div class="form-row row-nowrap">
+                <div class="col-md-6 mb-3">
+                    <input type="text" class="form-control" placeholder="bitola" id="bt-01">
+                </div>
+                <span class="span-person">X</span>
+                <div class="col-md-6 mb-3">
+                    <input type="text" class="form-control" placeholder="bitola" id="bt-02">
+                </div>
+
+            </div>
+            <div class="form-row">
+                <div class="btn-group mb-3 col-md-12 box-btns" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-secondary">Quantidade Peças m<sup>2</sup>: </button>
+                    <button type="button" class="btn btn-secondary qtd"></button>
+
+                </div>
+                <div class="col-md-12 mb-3">
+                    <input type="text" class="form-control" placeholder="camada" id="camada">
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <input type="text" class="form-control" placeholder="peso seco %" id="peso-seco">
+                </div>
+                <div class="col-md-12 mb-3">
+                    <input type="text" class="form-control" placeholder="perda %" id="perda">
+                </div>
+                <div class="col-md-12 mb-3">
+                    <input type="text" class="form-control" placeholder="m(2)" id="metros">
+                </div>
+
+
+            </div>
+            <hr>
+            <div class="row mt-3">
+                <div class="col-6">
+                    <button type="button" class="btn btn-success btn-block" id="btn-calcular">Calcular</button>
+                </div>
+                <div class="col-6">
+
+                    <button type="button" class="btn btn-danger btn-block" id="btn-limpar">limpar</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

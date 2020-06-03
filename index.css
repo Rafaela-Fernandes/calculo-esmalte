@@ -1,0 +1,39 @@
+body{
+    font-family: 'Lato';
+}
+
+.box-titulo{
+    text-align: center;
+}
+
+.box-titulo h1{
+  
+    text-transform: uppercase;
+    color:#6c757d;
+    font-size: 25px;
+}
+.box-titulo h1 img{
+    vertical-align: sub;
+}
+
+#form .row-nowrap{
+    flex-wrap: nowrap;
+}
+.span-person{
+    margin-top: 2%;
+    text-transform: uppercase;
+    color:#6c757d;
+   
+}
+.box-btns button{
+ text-align: left;
+}
+
+.box-btns button:first-child{
+background: #adb5bd;
+color: #3d4246
+}
+.box-btns button:last-child{
+    color: #545b62;
+    background: #FFF
+}
