@@ -47,8 +47,7 @@ $(document).ready(function () {
     })
 
     $('#btn-limpar').click(function () {
-        $("#form input").val('');
-        $('.total-geral').text('');
-        $('.qtd').text('');
+
+        location.reload();
     })
 })
