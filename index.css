@@ -20,7 +20,7 @@ body{
     flex-wrap: nowrap;
 }
 .span-person{
-     font-weight: 700;
+     font-weight:bold;
     text-transform: uppercase;
     color:#6c757d;
     height: 37px;
