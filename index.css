@@ -43,3 +43,21 @@ color: #3d4246
 .total-geral{
     display: none;
 }
+
+#form .input-group-text{
+    background-color: #f8f9fac2;
+    color:#6c757d;
+    
+}
+
+
+::-webkit-input-placeholder{ 
+    color: #aab0b4 !important;
+  }
+::-moz-placeholder{ 
+    color: #aab0b4 !important;
+  }
+:-ms-input-placeholder  { 
+    color: #aab0b4 !important;
+  }
+  
