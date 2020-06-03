@@ -6,7 +6,7 @@ $(document).ready(function () {
         let bt_02 = $('#bt-02').val();
         var totalBitola = 1 / ((parseInt(bt_01) * parseInt(bt_02)) / 10000);
 
-
+        console.log('totalBitola', totalBitola)
         if (bt_01 && bt_02 == 10) {
 
             let total10X10 = parseInt(totalBitola) + 4
@@ -17,7 +17,7 @@ $(document).ready(function () {
 
         } else {
             if (totalBitola >= 0) {
-                $('.total-geral').toggle();
+
                 $('.qtd').text(totalBitola.toFixed(2));
             }
 
@@ -37,11 +37,11 @@ $(document).ready(function () {
         // calculo parte 01
 
         let cal_01 = parseFloat(totalBitola) * camada * (pesoSeco / 100);
-        console.log(cal_01);
         let cal_02 = cal_01 + ((cal_01 * perda) / 100);
-        console.log(cal_02);
         let totalGeral = (cal_02 / 1000) * metros;
 
+
+        $('.total-geral').show();
         $('.total-geral').text(totalGeral);
 
     })
