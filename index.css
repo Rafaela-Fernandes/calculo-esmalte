@@ -20,9 +20,12 @@ body{
     flex-wrap: nowrap;
 }
 .span-person{
-    margin-top: 2%;
+     font-weight: 700;
     text-transform: uppercase;
     color:#6c757d;
+    height: 37px;
+    line-height: 34px;
+
    
 }
 .box-btns button{
