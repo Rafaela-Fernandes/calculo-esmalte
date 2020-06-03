@@ -50,6 +50,14 @@ color: #3d4246
     
 }
 
+#btn-calcular{
+    background-color: #28a776;
+    border-color: #28a776;
+}
+#btn-limpar{
+    background-color: #ff5162;
+    border-color: #ff5162;
+}
 
 ::-webkit-input-placeholder{ 
     color: #aab0b4 !important;
