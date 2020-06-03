@@ -37,7 +37,9 @@ $(document).ready(function () {
         // calculo parte 01
 
         let cal_01 = parseFloat(totalBitola) * camada * (pesoSeco / 100);
-        let cal_02 = cal_01 + (cal_01 / 10);
+        console.log(cal_01);
+        let cal_02 = cal_01 + ((cal_01 * perda) / 100);
+        console.log(cal_02);
         let totalGeral = (cal_02 / 1000) * metros;
 
         $('.total-geral').text(totalGeral);
