@@ -1,9 +1,19 @@
 
 $(document).ready(function () {
+    $('.qtd').css('color', '#FFF')
     $('#bt-01, #bt-02').change(function () {
         let bt_01 = $('#bt-01').val();
         let bt_02 = $('#bt-02').val();
         var totalBitola = 1 / ((parseInt(bt_01) * parseInt(bt_02)) / 10000);
+
+        let texto = $('.qtd').text()
+
+        if (texto != "NaN") {
+            $('.qtd').css('color', '#FFF')
+        } else {
+            $('.qtd').css('color', '#545b62')
+        }
+
         if (bt_01 && bt_02 == 10) {
 
             let total10X10 = parseInt(totalBitola) + 4
