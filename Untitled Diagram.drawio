@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T03:51:13.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="KJ6EdnY9MImEPOom6-_0" version="14.1.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-13T03:58:13.007Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="y5ySVTbfWhjdGLKpfuzX" version="14.1.9" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1673" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
@@ -92,19 +92,19 @@
           <mxGeometry y="25.833333333333336" width="150" height="25.833333333333336" as="geometry" />
         </mxCell>
         <mxCell id="TVPdSnbktovkC6RhDZ48-50" value="" style="swimlane;html=1;startSize=20;horizontal=1;childLayout=treeLayout;horizontalTree=0;resizable=0;containerType=tree;fontSize=15;fontColor=#007FFF;" vertex="1" parent="TVPdSnbktovkC6RhDZ48-42">
-          <mxGeometry x="155" y="165" width="280" height="190" as="geometry" />
+          <mxGeometry x="155" y="165" width="280" height="200" as="geometry" />
         </mxCell>
         <mxCell id="TVPdSnbktovkC6RhDZ48-51" value="Formik + Yup" style="whiteSpace=wrap;html=1;" vertex="1" parent="TVPdSnbktovkC6RhDZ48-50">
           <mxGeometry x="90" y="40" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TVPdSnbktovkC6RhDZ48-52" value="Dados pertinente&amp;nbsp;&lt;br&gt;ao&amp;nbsp; form" style="whiteSpace=wrap;html=1;" vertex="1" parent="TVPdSnbktovkC6RhDZ48-50">
-          <mxGeometry x="20" y="130" width="100" height="40" as="geometry" />
+        <mxCell id="TVPdSnbktovkC6RhDZ48-52" value="Dados pertinente&amp;nbsp;&lt;br&gt;ao&amp;nbsp; tipo de registro" style="whiteSpace=wrap;html=1;" vertex="1" parent="TVPdSnbktovkC6RhDZ48-50">
+          <mxGeometry x="20" y="130" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TVPdSnbktovkC6RhDZ48-53" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" parent="TVPdSnbktovkC6RhDZ48-50" source="TVPdSnbktovkC6RhDZ48-51" target="TVPdSnbktovkC6RhDZ48-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TVPdSnbktovkC6RhDZ48-54" value="Dados Globais&lt;br&gt;Compartilhados" style="whiteSpace=wrap;html=1;" vertex="1" parent="TVPdSnbktovkC6RhDZ48-50">
-          <mxGeometry x="160" y="130" width="100" height="40" as="geometry" />
+        <mxCell id="TVPdSnbktovkC6RhDZ48-54" value="Dados Globais&lt;br&gt;Compartilhados entre os registros" style="whiteSpace=wrap;html=1;" vertex="1" parent="TVPdSnbktovkC6RhDZ48-50">
+          <mxGeometry x="160" y="130" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TVPdSnbktovkC6RhDZ48-55" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" parent="TVPdSnbktovkC6RhDZ48-50" source="TVPdSnbktovkC6RhDZ48-51" target="TVPdSnbktovkC6RhDZ48-54">
           <mxGeometry relative="1" as="geometry" />
