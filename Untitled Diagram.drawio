@@ -1,11 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T02:25:01.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="IZGAT0wejguhH1wC36gd" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T02:31:13.295Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="cfiMMBi763yfQHoBrGNq" version="14.1.9" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TVPdSnbktovkC6RhDZ48-3" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="240" y="110" width="170" height="60" as="geometry" />
+        <mxCell id="TVPdSnbktovkC6RhDZ48-65" value="Breve&amp;nbsp; explicação&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="790" width="770" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TVPdSnbktovkC6RhDZ48-66" value="1. Dentro da Pasta de Cadastro terá o index e contextCadastro,&amp;nbsp; que proverá dados para seus filhos, que&amp;nbsp;são os tipos de registro.&amp;nbsp; Componentes como Alert e SnackBar são gerenciados via context, as demais&lt;br&gt;informações via props.,&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="40" y="830" width="770" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TVPdSnbktovkC6RhDZ48-67" value="2. Cada tipo de registro terá seu próprio formik para gerenciar validação, porem alguns dados que esse formik recebe será passado via props. Os dados passados via props são aqueles&amp;nbsp; que tem necessidade de ser compartilhados em mais de um formulário.&amp;nbsp; &amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="40" y="900" width="770" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TVPdSnbktovkC6RhDZ48-70" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="110" y="170" width="689" height="515" as="geometry" />
+        </mxCell>
+        <mxCell id="TVPdSnbktovkC6RhDZ48-3" value="" style="group" vertex="1" connectable="0" parent="TVPdSnbktovkC6RhDZ48-70">
+          <mxGeometry x="140" y="40" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TVPdSnbktovkC6RhDZ48-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="TVPdSnbktovkC6RhDZ48-3">
           <mxGeometry width="170" height="60" as="geometry" />
@@ -16,11 +28,11 @@
         <mxCell id="TVPdSnbktovkC6RhDZ48-48" value="&lt;font style=&quot;font-size: 16px&quot; color=&quot;#ff9933&quot;&gt;via props&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontColor=#007FFF;" vertex="1" parent="TVPdSnbktovkC6RhDZ48-3">
           <mxGeometry x="10" y="30" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TVPdSnbktovkC6RhDZ48-32" value="" style="shape=datastore;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="310" y="70" width="20" height="30" as="geometry" />
+        <mxCell id="TVPdSnbktovkC6RhDZ48-32" value="" style="shape=datastore;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="TVPdSnbktovkC6RhDZ48-70">
+          <mxGeometry x="210" width="20" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TVPdSnbktovkC6RhDZ48-33" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="430" y="110" width="170" height="60" as="geometry" />
+        <mxCell id="TVPdSnbktovkC6RhDZ48-33" value="" style="group" vertex="1" connectable="0" parent="TVPdSnbktovkC6RhDZ48-70">
+          <mxGeometry x="330" y="40" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TVPdSnbktovkC6RhDZ48-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="TVPdSnbktovkC6RhDZ48-33">
           <mxGeometry width="170" height="60" as="geometry" />
@@ -31,11 +43,11 @@
         <mxCell id="TVPdSnbktovkC6RhDZ48-49" value="&lt;font style=&quot;font-size: 16px&quot; color=&quot;#ff9933&quot;&gt;via contexto&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontColor=#007FFF;" vertex="1" parent="TVPdSnbktovkC6RhDZ48-33">
           <mxGeometry y="30" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TVPdSnbktovkC6RhDZ48-36" value="" style="shape=datastore;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="505" y="70" width="20" height="30" as="geometry" />
+        <mxCell id="TVPdSnbktovkC6RhDZ48-36" value="" style="shape=datastore;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="TVPdSnbktovkC6RhDZ48-70">
+          <mxGeometry x="405" width="20" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TVPdSnbktovkC6RhDZ48-42" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="100" y="230" width="590" height="355" as="geometry" />
+        <mxCell id="TVPdSnbktovkC6RhDZ48-42" value="" style="group" vertex="1" connectable="0" parent="TVPdSnbktovkC6RhDZ48-70">
+          <mxGeometry y="160" width="689" height="355" as="geometry" />
         </mxCell>
         <mxCell id="TVPdSnbktovkC6RhDZ48-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;fontColor=#007FFF;" edge="1" parent="TVPdSnbktovkC6RhDZ48-42" source="TVPdSnbktovkC6RhDZ48-37" target="TVPdSnbktovkC6RhDZ48-50">
           <mxGeometry relative="1" as="geometry" />
@@ -103,23 +115,20 @@
         <mxCell id="TVPdSnbktovkC6RhDZ48-63" value="" style="shape=datastore;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="TVPdSnbktovkC6RhDZ48-50">
           <mxGeometry x="225" y="95" width="20" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="TVPdSnbktovkC6RhDZ48-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.381;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;fontColor=#007FFF;" edge="1" parent="1" source="TVPdSnbktovkC6RhDZ48-1" target="TVPdSnbktovkC6RhDZ48-37">
+        <mxCell id="TVPdSnbktovkC6RhDZ48-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.381;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;fontColor=#007FFF;" edge="1" parent="TVPdSnbktovkC6RhDZ48-70" source="TVPdSnbktovkC6RhDZ48-1" target="TVPdSnbktovkC6RhDZ48-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TVPdSnbktovkC6RhDZ48-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.703;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;fontColor=#007FFF;" edge="1" parent="1" source="TVPdSnbktovkC6RhDZ48-34" target="TVPdSnbktovkC6RhDZ48-37">
+        <mxCell id="TVPdSnbktovkC6RhDZ48-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.703;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;fontColor=#007FFF;" edge="1" parent="TVPdSnbktovkC6RhDZ48-70" source="TVPdSnbktovkC6RhDZ48-34" target="TVPdSnbktovkC6RhDZ48-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TVPdSnbktovkC6RhDZ48-64" value="Tipos de&amp;nbsp; Registro" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FF3333;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="339" y="200" width="150" height="20" as="geometry" />
+        <mxCell id="TVPdSnbktovkC6RhDZ48-64" value="Tipos de&amp;nbsp; Registro" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FF3333;fontStyle=1" vertex="1" parent="TVPdSnbktovkC6RhDZ48-70">
+          <mxGeometry x="239" y="130" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TVPdSnbktovkC6RhDZ48-65" value="Breve&amp;nbsp; explicação&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="40" y="650" width="770" height="20" as="geometry" />
+        <mxCell id="TVPdSnbktovkC6RhDZ48-68" value="Dados" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FF3333;fontStyle=1" vertex="1" parent="TVPdSnbktovkC6RhDZ48-70">
+          <mxGeometry x="239" y="5" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TVPdSnbktovkC6RhDZ48-66" value="1. Dentro da Pasta de Cadastro terá o index e contextCadastro,&amp;nbsp; que proverá dados para seus filhos, que&amp;nbsp;são os tipos de registro.&amp;nbsp; Componentes como Alert e SnackBar são gerenciados via context, as demais&lt;br&gt;informações via props.,&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="40" y="690" width="770" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="TVPdSnbktovkC6RhDZ48-67" value="2. Cada tipo de registro terá seu próprio formik para gerenciar validação, porem alguns dados que esse formik recebe será passado via props.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="40" y="750" width="770" height="50" as="geometry" />
+        <mxCell id="TVPdSnbktovkC6RhDZ48-71" value="&lt;font style=&quot;font-size: 27px&quot;&gt;Fluxo básico da lógica de cadastro&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="770" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
